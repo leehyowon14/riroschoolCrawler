@@ -12,6 +12,7 @@ Go routine을 최대한으로 활용하여 빠른 속도를 보장합니다.
 2. `main.go` 파일을 실행합니다.
 3. `학교명.json` 파일이 `main.go` 파일과 동일한 경로에 생성됩니다.
 
+---
 ### 결과 JSON 파일 예시
 ```json
 {
@@ -32,15 +33,15 @@ Go routine을 최대한으로 활용하여 빠른 속도를 보장합니다.
 }
 ```
 #### 각 속성의 의미
-- success: 크롤링 성공 여부
-- lastUpdate: 크롤링 시각(Unixtime)
-- firstGrade, secondGrade, thirdGrade: 학년 정보
-    - number: 수행평가 아이디 ("과제 종류-과제 순번")
-        - 1-XX: 수행평가
-        - 2-XX: 경시대회
-        - 3-XX: 포트폴리오
-    - teacher: 담당 선생님
-    - subject: 과목(수행평가의 경우)
-    - title: 과제 이름
-    - time: 제출 마감일
-    - isEnded: 마감 여부
+- `success`: 크롤링 성공 여부
+- `lastUpdate`: 크롤링 시각(Unixtime)
+- `firstGrade`, `secondGrade`, `thirdGrade`: 학년 정보
+    - `number`: 수행평가 아이디 (`과제 종류-과제 순번`)
+        - `1-XX`: 수행평가
+        - `2-XX`: 경시대회
+        - `3-XX`: 포트폴리오
+    - `teacher`: 담당 선생님
+    - `subject`: 과목(수행평가의 경우)
+    - `title`: 과제 이름
+    - `time`: 제출 마감일
+    - `isEnded`: 마감 여부
