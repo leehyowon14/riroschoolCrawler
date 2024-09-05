@@ -4,11 +4,11 @@ Project.Echos라는 학생을 위한 리로스쿨 과제 관리 사이트에 사
 
 확장성을 고려하여 여러 학교의 과제를 크롤링할 수 있도록 코드가 구성되어있습니다.
 
-go routine을 최대한으로 활용하여 빠른 속도를 보장합니다.
+Go routine을 최대한으로 활용하여 빠른 속도를 보장합니다.
 
 ---
 ### 사용방법
-1. `Data.json`을 `Data.json.example`을 참고하여 작성합니다.
+1. `Data.json`을 [Data.json.example](Data.json.example)을 참고하여 작성합니다.
 2. `main.go` 파일을 실행합니다.
 3. `학교명.json` 파일이 `main.go` 파일과 동일한 경로에 생성됩니다.
 
@@ -25,11 +25,10 @@ go routine을 최대한으로 활용하여 빠른 속도를 보장합니다.
         "title": "피지컬컴퓨팅 사례",
         "time": 1725786000,
         "isEnded": false
-    },
-    ...
+    }
   ],
-  "secondGrade": [ ... ],
-  "thirdGrade": [ ... ]
+  "secondGrade": [  ],
+  "thirdGrade": [  ]
 }
 ```
 #### 각 속성의 의미
